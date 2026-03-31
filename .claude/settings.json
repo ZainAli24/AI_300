@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File \"E:/AI_300/.claude/hooks/permission-beep.ps1\""
+          }
+        ]
+      }
+    ]
+  }
+}
